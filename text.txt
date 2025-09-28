@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunter S | Starbucks Team</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #00704A; /* Starbucks green */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #004d34;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #00704A;
+      object-fit: cover;
+    }
+    .profile-info h2 {
+      margin: 0;
+      color: #00704A;
+    }
+    footer {
+      text-align: center;
+      background: #00704A;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Starbucks Employee Portal</h1>
+    <p>Welcome, Hunter S</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Schedule</a>
+    <a href="#">Training</a>
+    <a href="#">Benefits</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section class="profile">
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Starbucks_Coffee_Logo.svg" alt="Starbucks Logo">
+      <div class="profile-info">
+        <h2>Hunter Silvia</h2>
+        <p><strong>Position:</strong> Shift Leader</p>
+        <p><strong>Store:</strong> Starbucks Livingston</p>
+        <p><strong>Email:</strong> hunter.s@starbucks.com</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>About Me</h3>
+      <p>Hi, I’m Hunter! I recently joined the Starbucks Livingston team as a Shift Leader. I enjoy connecting with customers, supporting my team, and keeping things running smoothly. Coffee, teamwork, and great service are what I’m all about.</p>
+    </section>
+
+    <section>
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Weekly Schedule</a></li>
+        <li><a href="#">Training Resources</a></li>
+        <li><a href="#">Employee Handbook</a></li>
+        <li><a href="#">Company News</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Starbucks Coffee Company | Employee Portal
+  </footer>
+</body>
+</html>
