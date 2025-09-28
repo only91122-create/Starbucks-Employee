@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunter S | Starbucks Team</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #00704A;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header p {
+      margin: 5px 0 0 0;
+      font-size: 1.1em;
+    }
+    nav {
+      background-color: #004d34;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 25px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      margin-bottom: 30px;
+    }
+    .profile img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 3px solid #00704A;
+      object-fit: cover;
+    }
+    .profile-info h2 {
+      margin: 0;
+      color: #00704A;
+      font-size: 1.8em;
+    }
+    .profile-info p {
+      margin: 5px 0;
+      font-size: 1em;
+    }
+    .email-button {
+      margin-top: 10px;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #00704A;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .email-button:hover {
+      background-color: #004d34;
+    }
+    section h3 {
+      color: #00704A;
+      margin-top: 20px;
+    }
+    section ul {
+      padding-left: 20px;
+    }
+    section ul li {
+      margin-bottom: 8px;
+    }
+    section ul li a {
+      color: #00704A;
+      text-decoration: none;
+    }
+    section ul li a:hover {
+      text-decoration: underline;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    table, th, td {
+      border: 1px solid #00704A;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #00704A;
+      color: white;
+    }
+    footer {
+      text-align: center;
+      background: #00704A;
+      color: white;
+      padding: 20px;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Starbucks Employee Portal</h1>
+    <p>Welcome, Hunter S</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Schedule</a>
+    <a href="#">Training</a>
+    <a href="#">Benefits</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section class="profile">
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Starbucks_Coffee_Logo.svg" alt="Hunter Silvia Profile Photo">
+      <div class="profile-info">
+        <h2>Hunter Silvia</h2>
+        <p><strong>Position:</strong> Shift Leader</p>
+        <p><strong>Store:</strong> Starbucks Livingston</p>
+        <p><strong>Email:</strong> hunter.s@starbucks.com</p>
+        <a href="mailto:hunter.s@starbucks.com" class="email-button">Email Hunter</a>
+      </div>
+    </section>
+
+    <section>
+      <h3>About Me</h3>
+      <p>Hi, I’m Hunter! I recently joined the Starbucks Livingston team as a Shift Leader. I enjoy connecting with customers, supporting my team, and keeping the store running smoothly. Coffee, teamwork, and great service are my passions!</p>
+    </section>
+
+    <section>
+      <h3>Weekly Schedule</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Shift</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday</td><td>12:00 PM - 6:00 PM</td></tr>
+          <tr><td>Tuesday</td><td>10:00 AM - 4:00 PM</td></tr>
+          <tr><td>Wednesday</td><td>Off</td></tr>
+          <tr><td>Thursday</td><td>2:00 PM - 8:00 PM</td></tr>
+          <tr><td>Friday</td><td>12:00 PM - 6:00 PM</td></tr>
+          <tr><td>Saturday</td><td>10:00 AM - 4:00 PM</td></tr>
+          <tr><td>Sunday</td><td>Off</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Training Resources</a></li>
+        <li><a href="#">Employee Handbook</a></li>
+        <li><a href="#">Company News</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Starbucks Coffee Company | Employee Portal
+  </footer>
+</body>
+</html>
